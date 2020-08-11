@@ -4,11 +4,7 @@ import Person from './person';
 export default class Student extends Person {
   constructor(name, age, klass) {
     super(name, age);
-    this.klass1 = klass;
-  }
-
-  get klass() {
-    return this.klass1;
+    this.klass = klass;
   }
 
   introduce() {

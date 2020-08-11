@@ -1,16 +1,8 @@
 // TODO 12: 在这里写实现代码
 export default class Person {
   constructor(name, age) {
-    this.name1 = name;
-    this.age1 = age;
-  }
-
-  get name() {
-    return this.name1;
-  }
-
-  get age() {
-    return this.age1;
+    this.name = name;
+    this.age = age;
   }
 
   introduce() {
